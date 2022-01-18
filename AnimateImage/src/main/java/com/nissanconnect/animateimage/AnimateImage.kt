@@ -6,7 +6,7 @@ import android.view.animation.AnimationUtils
 import androidx.appcompat.widget.AppCompatImageView
 
 class AnimateImage : AppCompatImageView {
-    private var defaultDuration: Int = 2000
+    private var defaultDuration: Int = 1000
     private var customAnimation: AnimateSlide =
         AnimateSlide.NO_ACTION
 
